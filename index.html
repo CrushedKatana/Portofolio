@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charellino Kalingga Sadewo | Game Developer Portfolio</title>
+  <meta name="description" content="Portfolio website of Charellino Kalingga Sadewo, game developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanline" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">CHARELLINO // GAME DEV</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero panel">
+      <p class="tag">Player Spawned</p>
+      <h1>Charellino Kalingga Sadewo</h1>
+      <p class="subtitle">Game Developer • Interactive Experiences • Creative Coder</p>
+      <div class="meta-grid">
+        <div class="meta-card">
+          <span class="label">Birth Date</span>
+          <strong>24 Dec 2004</strong>
+        </div>
+        <div class="meta-card">
+          <span class="label">Age</span>
+          <strong id="ageDisplay">Loading...</strong>
+        </div>
+        <div class="meta-card">
+          <span class="label">GitHub</span>
+          <strong><a id="githubProfile" target="_blank" rel="noopener">CrushedKatana</a></strong>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn" id="contactGithub" target="_blank" rel="noopener">GitHub Profile</a>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About Me</h2>
+      <p>
+        I’m Charellino Kalingga Sadewo, a game developer focused on building immersive gameplay,
+        polished mechanics, and expressive digital worlds. I enjoy combining code, design, and storytelling
+        to create experiences that feel alive.
+      </p>
+    </section>
+
+    <section id="skills" class="panel">
+      <h2>Developer Loadout</h2>
+      <div class="skills-grid">
+        <article>
+          <h3>Gameplay Systems</h3>
+          <p>Mechanics prototyping, progression loops, and responsive controls.</p>
+        </article>
+        <article>
+          <h3>Code & Tools</h3>
+          <p>Version control workflows, rapid iteration, and clean code architecture.</p>
+        </article>
+        <article>
+          <h3>Creative Direction</h3>
+          <p>World-building, interactive storytelling, and player-focused experiences.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="panel">
+      <div class="section-head">
+        <h2>GitHub Missions</h2>
+        <p>Live data fetched from your GitHub repositories.</p>
+      </div>
+      <div id="repoGrid" class="repo-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="cv" class="panel">
+      <h2>Download CV</h2>
+      <p>Get my latest curriculum vitae for opportunities and collaborations.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="assets/Charellino_Kalingga_Sadewo_CV.md" download>Download CV</a>
+        <a class="btn" href="assets/Charellino_Kalingga_Sadewo_CV.md" target="_blank" rel="noopener">View CV</a>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>Contact</h2>
+      <p>Want to collaborate on games, prototypes, or creative tech projects?</p>
+      <a class="btn btn-primary" id="contactLink" target="_blank" rel="noopener">Message Me on GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Charellino Kalingga Sadewo — Game Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
