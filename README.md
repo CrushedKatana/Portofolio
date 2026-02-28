@@ -6,7 +6,7 @@ Game-developer themed personal portfolio website.
 - `index.html` - Main page structure
 - `styles.css` - Visual theme and responsive layout
 - `script.js` - Profile data, age calculation, GitHub repo fetching
-- `assets/Charellino_Kalingga_Sadewo_CV.md` - Downloadable CV
+- `assets/Charellino_Kalingga_Sadewo_CV.pdf` - Downloadable CV (PDF)
 - `.github/workflows/deploy-pages.yml` - GitHub Pages auto-deploy workflow
 
 ## Run locally
